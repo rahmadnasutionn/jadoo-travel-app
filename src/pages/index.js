@@ -36,13 +36,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex">
             <div className="w-full lg:w-6/12 pt-52">
-              <h1 className="text-accent-4 font-bold lg:text-xl uppercase mb-6 text-sm">Best Destinations around the world</h1>
+              <h1 className="text-accent-4 font-bold lg:text-xl uppercase mb-6 text-sm relative z-20">Best Destinations around the world</h1>
               <h2 className="text-gray-900 font-serif text-4xl lg:text-[84px] leading-tight lg:leading-[89px] tracking-tighter mb-8">
                 Travel,
                 <span className="relative">
                   {' '}
                   enjoy
-                  <span className="absolute left-0 top-full -mt-3 -lg:mt-8 -ml-4 -z-10">
+                  <span className="absolute left-0 top-full -mt-3 lg:-mt-8 -ml-4 lg:-ml-4 -z-10">
                     <DecoreTextUnderline className="w-[100px] lg:w-[385px] h-1 lg:h-[12px] fill-accent-4" />
                   </span>
                 </span>{' '}
